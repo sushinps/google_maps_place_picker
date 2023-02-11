@@ -252,7 +252,7 @@ PlacePicker(apiKey: APIKeys.apiKey,
                       borderRadius: BorderRadius.circular(12.0),
                       child: state == SearchingState.Searching ? 
                                       Center(child: CircularProgressIndicator()) : 
-                                      RaisedButton(onPressed: () { print("do something with [selectedPlace] data"); },),
+                                      ElevatedButton(onPressed: () { print("do something with [selectedPlace] data"); },),
                    );
             },
             ...
